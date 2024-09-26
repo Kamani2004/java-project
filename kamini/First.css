@@ -1,0 +1,47 @@
+/* .Model{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient();
+} */
+ .p{
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 30px;
+ color: rgb(244, 121, 76);
+    font-weight:250 ;
+ }
+.navbar{
+    /* background: white; */
+    background:rgb(213, 99, 6);
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    padding: auto;
+    justify-content: space-between;
+}
+.logo{
+   width: 44%;
+    cursor: pointer;
+    padding-right: 500px;
+    margin: top ;
+}
+
+.navbar ul li{
+    display: inline;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.navbar ul li a{
+    color: black;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-decoration: solid;
+
+}
+a.active,a.hover{
+    background: #1b9bff;
+    transform: .5s;
+}
